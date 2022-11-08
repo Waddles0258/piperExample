@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  background-color: rgb(0, 119, 101);
+}
+
+header {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+.logo img {
+  width: 45px;
+  height: 45px;
+  padding-top: 30px;
+  padding-right: 15px;
+}
+.logo p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: white;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+.menu a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  padding-top: 35px;
+}
+.menu a:hover {
+  color: rgb(0, 0, 10);
+}
+
+.jumbotron {
+  margin-top: -50px;
+  background: url(images/greenBG.png);
+}
+.jumbotron h1 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 72px;
+  color: white;
+  text-align: center;
+}
+
+.theProblem {
+  width: 50%;
+  margin: 0 auto;
+}
+
+h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  color: rgb(0, 119, 101);
+  text-align: center;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(0, 119, 101);
+  text-align: center;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.hero {
+  background: url(images/blueBG.png);
+  margin-top: 100px;
+}
+.hero p {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 50%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 48px;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ppc {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.ppcCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.ppcCont p {
+  margin-top: -10px;
+  font-style: italic;
+}
+.ppcCont img {
+  width: 115px;
+  height: 115px;
+  padding-right: 100px;
+}
+
+.theTeam {
+  background: rgb(238, 238, 238);
+}
+
+.workers {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+}
+.workers img {
+  width: 168px;
+  height: 168px;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out, -webkit-transform 0.8s ease-in-out;
+}
+.workers img:hover {
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.workers p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  margin-top: -20px;
+}
+.workers .worker {
+  width: 200px;
+  height: 300px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1280px) {
+  .workers {
+    width: 80%;
+  }
+}
+.footer {
+  background: rgb(51, 51, 51);
+}
+.footer p {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
